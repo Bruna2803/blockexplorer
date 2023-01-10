@@ -1,0 +1,90 @@
+.App {
+  width:100vw;
+  height: auto;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  align-items: center;
+  border: 1px solid #afaeae;
+  border-radius: 3px;
+  cursor:text;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  text-decoration: none;
+  width: 150px;
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.btn {
+  align-items: center;
+  border: 1px solid #DFDFDF;
+  border-radius: 15px;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  text-decoration: none;
+  width: 70px;
+  margin-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.details{
+  align-self: center;
+  padding-top: 10px;
+  width: 850px;
+  height: 100%;
+  border-radius: 20px; /* kutevi kvadrata*/
+  display: inline-flex;
+  flex-direction: column;
+  border: 1px solid lightgray; /* obrub kvadrata */
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 10px 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid rgb(159, 158, 158);
+  width: 750px;
+}
+
+em {
+  float: right;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  justify-content: center;
+}
+
+.navbar span {
+  font: bold;
+  color: white;
+}
